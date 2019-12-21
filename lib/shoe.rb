@@ -3,8 +3,9 @@ class Shoe
   attr_reader :brand
   
   
-  def initialize(brand)
+  def initialize(brand, condition = "new")
   @brand = brand 
+  @condition = condition
   end 
   
   def cobble 
