@@ -10,10 +10,11 @@ class Shoe
   
   def cobble 
   puts "Your shoe is as good as new!"
+  puts condition
   end 
   
   
 Shoe.new("Adidas")
- 
+Shoe.condition("new") 
   
 end 
